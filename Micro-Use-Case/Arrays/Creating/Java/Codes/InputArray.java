@@ -19,6 +19,8 @@ class InputArray {
             arrayInt[i] = sc.nextInt();
         }
 
+        sc.close();
+
         for(int element : arrayInt) {
             System.out.println("Array Element: " + element);
         }
