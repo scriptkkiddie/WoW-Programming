@@ -30,7 +30,6 @@ public class ArrayRotate {
     }
 
 
-
     public static void rotate(int arr[], int maxI) {
 
         if(maxI == 0) {
